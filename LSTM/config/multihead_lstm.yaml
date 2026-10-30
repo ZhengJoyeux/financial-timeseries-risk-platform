@@ -1,0 +1,24 @@
+project:
+  description: '15 independent LSTM heads; company-level risk classification on synthetic finance'
+  source_run: structured_s1_medianfix_n100
+  dataset: LSTM/data/s1_medianfix_seed2027
+  seed: 2026
+model:
+  n_features: 15
+  seq_len: 20
+  hidden_size: 12
+  num_layers: 1
+  fusion_hidden: 64
+  dropout: 0.25
+training:
+  epochs: 150
+  batch_size: 16
+  learning_rate: 0.0003
+  weight_decay: 0.0001
+  patience: 25
+  min_delta: 0.0001
+  grad_clip: 1.0
+  real_weight_in_augmented: 0.5
+  class_balance: true
+  checkpoint_selection: val_macro_bce
+  threshold: 0.5

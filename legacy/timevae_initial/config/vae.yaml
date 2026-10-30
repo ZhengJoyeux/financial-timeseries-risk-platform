@@ -1,0 +1,30 @@
+project:
+  description: 'Synthetic finance education demo; NOT real business records'
+  seed: 2026
+  quarters: 20
+  features: 15
+  source_xlsx: data/raw/financial_80.xlsx
+  split_dir: data/splits
+model:
+  conditional: true
+  latent_dim: 8
+  trend_degree: 2
+  use_base: true
+  use_trend: true
+  use_seasonality: true
+training:
+  epochs: 200
+  batch_size: 8
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  reconstruction_weight: 3.0
+  beta_kl: 0.025
+  temporal_weight: 0.10
+  patience: 45
+  grad_clip: 1.0
+  device: auto
+  random_seed: 2026
+generation:
+  default_number_per_class: 50
+  temperature: 1.0
+  random_seed: 2027

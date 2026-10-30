@@ -1,0 +1,162 @@
+{
+  ".gitignore": {
+    "sha256": "59562a1decce7c715256b620c456ba3948fd8edd6427426a7fc1e6d047467197",
+    "size_bytes": 167
+  },
+  "LSTM/README.md": {
+    "sha256": "14e7f2c688263495e2437984775c8375264d719127fbf1d57a68e6715d077269",
+    "size_bytes": 736
+  },
+  "LSTM/config/.gitkeep": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  "LSTM/data/.gitkeep": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  "LSTM/outputs/checkpoints/.gitkeep": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  "LSTM/outputs/evaluation/.gitkeep": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  "LSTM/outputs/logs/.gitkeep": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  "LSTM/scripts/.gitkeep": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  "LSTM/src/.gitkeep": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  "LSTM/tests/.gitkeep": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  "README.md": {
+    "sha256": "15615ca7b9ff791e28d41998427f4f6a973c92666e4afe498290aa4bdec7ea5f",
+    "size_bytes": 11409
+  },
+  "VAE/__init__.py": {
+    "sha256": "8052b3888ad0c0b672f3bdd9d077e6e86c60ba694f21f3bc9ee252d7b4d4f6b9",
+    "size_bytes": 21
+  },
+  "VAE/config/.gitkeep": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  "VAE/outputs/checkpoints/.gitkeep": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  "VAE/outputs/evaluation/.gitkeep": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  "VAE/outputs/generated/.gitkeep": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  "VAE/outputs/logs/.gitkeep": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  "VAE/scripts/__init__.py": {
+    "sha256": "9301856dcc9340da338e9da1b503692d41ac2ca720253cf3c481e2c7589ecf76",
+    "size_bytes": 32
+  },
+  "VAE/scripts/create_data.py": {
+    "sha256": "60cbb6a3f68ae9e54e0a3a09abf968401a80b1b728f8f465dc9ed4be194042f8",
+    "size_bytes": 847
+  },
+  "VAE/scripts/generate.py": {
+    "sha256": "ed23cb74a600243af9d6f8e95b74cfa5cf0cf16909c8bcbc094fe001b8eee440",
+    "size_bytes": 5648
+  },
+  "VAE/scripts/split_data.py": {
+    "sha256": "537caa3e2e2cabf93bc24fd99c0c546de5136e6a23ca011d680ff14f9f7068b7",
+    "size_bytes": 1858
+  },
+  "VAE/scripts/train.py": {
+    "sha256": "7da631cc4b438f2fa2ab089101ce1b3b26c8c5b795854efc2e5a6460f5b72234",
+    "size_bytes": 6892
+  },
+  "VAE/src/__init__.py": {
+    "sha256": "29449c0ae958abb76403301f969e258df4eaa7bddee1f6faae61078771e975b6",
+    "size_bytes": 42
+  },
+  "VAE/src/dataset.py": {
+    "sha256": "79580fda3132c2f820fdba8f470cfc1ca41199b261b9d44a8ea001a5fafea74e",
+    "size_bytes": 5209
+  },
+  "VAE/src/finance_rules.py": {
+    "sha256": "5f14ec6ae4b35c29277191e2c4e30599192c20208bd452ea584d3e3e4a3357d2",
+    "size_bytes": 2735
+  },
+  "VAE/src/metrics.py": {
+    "sha256": "8c95c89fbc821a8413bdfde7c8714fb1d6022abe91c7f4db5799ba99c938ea59",
+    "size_bytes": 8270
+  },
+  "VAE/src/schema.py": {
+    "sha256": "a015b133e999541d41f2d8c905c097cd86d71725364d918e80f29ba96a6be1f1",
+    "size_bytes": 1176
+  },
+  "VAE/src/synthetic_data.py": {
+    "sha256": "7d41b8709ae168895d6a52dafba68385571829b83d43c340e0c327f11ce621f8",
+    "size_bytes": 5061
+  },
+  "VAE/src/timevae.py": {
+    "sha256": "ea8af6e9470508b8517d92979d246b14116f37cfbcd0196701d7adac51bce179",
+    "size_bytes": 4997
+  },
+  "VAE/tests/test_integrity.py": {
+    "sha256": "1cacb43504a46be821cb921e9e8b7bda8c75d012af5922adfcd3fb51e152b668",
+    "size_bytes": 3253
+  },
+  "config/vae.yaml": {
+    "sha256": "d25a8711c68534f607d45d9d5f9fc16bb3405abae5a808798a9ce048c6cd959d",
+    "size_bytes": 621
+  },
+  "data/metadata/financial_variables.json": {
+    "sha256": "1d38469232d9d94d36f94db3d3809022a0c7ff3b9fd66f7ac4d61433008977c0",
+    "size_bytes": 2384
+  },
+  "data/raw/financial_80.xlsx": {
+    "sha256": "04cc07a26a8938c262a388f3717ded5741b6c290ec15d19f5d6b1e9bad8d0f9e",
+    "size_bytes": 191745
+  },
+  "data/splits/split_manifest.json": {
+    "sha256": "1ab06acf1a0b1ffdae239e2f9916cd5ec96bc773a7d5090e9635495a1eb79ee5",
+    "size_bytes": 1433
+  },
+  "data/splits/test.xlsx": {
+    "sha256": "c54fd83e510c50fc9d8394e327ae28ab18f7ead6a656d72fce9981b440c2e23c",
+    "size_bytes": 42429
+  },
+  "data/splits/train.xlsx": {
+    "sha256": "2367b7ee9f9c49514c3ca1025a8a254aebee60889a5a79fa7985d7123623fa7c",
+    "size_bytes": 115783
+  },
+  "data/splits/validation.xlsx": {
+    "sha256": "209d26e2626a842ed5172e02945090799e7c4ddefef30f722a5d3934848d356b",
+    "size_bytes": 42273
+  },
+  "docs/LOCAL_VALIDATION.md": {
+    "sha256": "c6fac7d7e90885aa1f6ae09e1412f6ee375cc3eb87973234787d84da1ba3ffa9",
+    "size_bytes": 1223
+  },
+  "docs/SETUP.md": {
+    "sha256": "2c1b1ec56a83ede2d8991d948bbd1cc1667b850a5ec8e2929230b463b3ae5a59",
+    "size_bytes": 1161
+  },
+  "requirements.txt": {
+    "sha256": "9c242e3ef5b50186c4424481e038eff0ff35bee8c885fe6cce674d23d365d005",
+    "size_bytes": 203
+  }
+}
